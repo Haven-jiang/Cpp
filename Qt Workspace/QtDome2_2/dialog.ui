@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>216</width>
+    <height>167</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QFormLayout" name="formLayout">
+   <item row="0" column="1">
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>年龄(&amp;A)</string>
+     </property>
+     <property name="buddy">
+      <cstring>spinBox</cstring>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QSpinBox" name="spinBox"/>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>民族(&amp;M)</string>
+     </property>
+     <property name="buddy">
+      <cstring>comboBox</cstring>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <widget class="QComboBox" name="comboBox">
+     <item>
+      <property name="text">
+       <string>汉族</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>蒙族</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QLabel" name="label">
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>751</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>姓名(&amp;N)</string>
+     </property>
+     <property name="buddy">
+      <cstring>lineEdit</cstring>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="1">
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>label</sender>
+   <signal>linkHovered(QString)</signal>
+   <receiver>lineEdit</receiver>
+   <slot>copy()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>27</x>
+     <y>18</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>82</x>
+     <y>23</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label_2</sender>
+   <signal>linkActivated(QString)</signal>
+   <receiver>spinBox</receiver>
+   <slot>stepDown()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>38</x>
+     <y>63</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>117</x>
+     <y>67</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label_3</sender>
+   <signal>linkActivated(QString)</signal>
+   <receiver>comboBox</receiver>
+   <slot>setEditText(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>17</x>
+     <y>106</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>102</x>
+     <y>107</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

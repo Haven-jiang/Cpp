@@ -1,0 +1,4 @@
+/home/collapsed/cpp/CLionWorkspace/untitled5/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/collapsed/cpp/CLionWorkspace/untitled5/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/collapsed/cpp/CLionWorkspace/untitled5/cmake-build-debug/CMakeFiles/untitled5.dir
+/home/collapsed/cpp/CLionWorkspace/untitled5/cmake-build-debug/CMakeFiles/untitled5_autogen.dir

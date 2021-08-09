@@ -1,0 +1,1 @@
+/usr/lib64/ccache/c++ -g CMakeFiles/TestCurise.dir/main.cpp.o -o TestCurise 

@@ -1,0 +1,3 @@
+/home/collapsed/cpp/CLionWorkspace/VectorDome/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/collapsed/cpp/CLionWorkspace/VectorDome/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/collapsed/cpp/CLionWorkspace/VectorDome/cmake-build-debug/CMakeFiles/VectorDome.dir
